@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="takeImage">Take Image</string>
+    <string name="place">Place: </string>
+    <string name="temp">temperature: </string>
+    <string name="condition">Condition: </string>
+    <string name="ok" >Ok</string>
+    <string name="please">Please Complete Data</string>
+    <string name="history">History</string>
+    <string name="share">Share</string>
+    <string name="face_app_id">1952644801510278
+</string>
+    <string name="face_login">fb1952644801510278
+</string>
+    <string name="seccussful">Successful</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

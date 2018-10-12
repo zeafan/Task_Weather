@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="takeImage">ألتقاط صورة</string>
+    <string name="place">المكان</string>
+    <string name="temp">درجة الحرارة</string>
+    <string name="condition">الحال</string>
+    <string name="ok" >موافق</string>
+    <string name="please">Please Complete Data</string>
+    <string name="history">History</string>
+    <string name="share">Share</string>
+    <string name="seccussful">Successful</string>
+    <string name="cancel">Cancel</string>
+</resources>

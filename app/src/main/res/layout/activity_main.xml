@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherActivity">
+
+
+    <Button
+        android:id="@+id/btn_takeImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+        android:text="@string/takeImage"
+        android:layout_weight="0"
+        android:layout_margin="@dimen/d_8_10_12"
+        android:textColor="@android:color/background_light"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/Relative_ScreenShot"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_place"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_margin="5sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_place"
+        />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_temp"
+        />
+
+
+</RelativeLayout>
+</LinearLayout>
